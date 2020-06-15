@@ -29,8 +29,6 @@ describe "Author" do
       it "takes in an argument of a post and associates that post with the author by telling the post that it belongs to that author" do
         hello_world = Post.new("Hello World")
         betty.add_post(hello_world)
-        puts "betty"
-        puts betty.posts.last.title
         expect(betty.posts).to include(hello_world)
         expect(hello_world.author).to eq(betty)
       end
