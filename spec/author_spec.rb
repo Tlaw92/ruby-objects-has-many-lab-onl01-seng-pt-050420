@@ -30,7 +30,7 @@ describe "Author" do
         hello_world = Post.new("Hello World")
         betty.add_post(hello_world)
         puts "betty"
-        puts betty.posts.inspect
+        puts betty.posts.last.inspect
         expect(betty.posts).to include(hello_world)
         expect(hello_world.author).to eq(betty)
       end
