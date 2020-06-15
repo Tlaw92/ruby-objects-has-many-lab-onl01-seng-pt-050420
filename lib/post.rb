@@ -21,10 +21,7 @@ class Post
   def self.count 
     @@post_list.length 
   end   
-  
-  def title 
-    @title
-  end 
+
   
 end   
 
