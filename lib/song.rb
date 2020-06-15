@@ -19,8 +19,12 @@ class Song
   end   
   
   def self.count
-    @@song_list.length
+    self.all.length
   end 
+  
+  def self.all 
+    @@all 
+  end   
   
 end   
 
