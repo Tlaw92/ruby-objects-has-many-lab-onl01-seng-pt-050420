@@ -22,6 +22,9 @@ class Post
     @@post_list.length 
   end   
   
+  def title 
+    @title
+  end 
   
 end   
 
