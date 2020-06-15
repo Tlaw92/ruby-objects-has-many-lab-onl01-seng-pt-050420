@@ -22,7 +22,10 @@ class Post
   def self.count 
     @@post_list.length 
   end   
-
+  
+  def self.all 
+    @@all 
+  end   
   
 end   
 
