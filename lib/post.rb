@@ -2,11 +2,11 @@ class Post
   
   post_list = []
   
-  attr_accessor :author, :title 
+  attr_accessor :author, :post_title 
   
-  # def initialize(name)
-  #   @name = name 
-  # end  
+  def initialize(name)
+    @name = name 
+  end  
   
   def author=(author)
     @author = author 
